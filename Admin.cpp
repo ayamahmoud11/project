@@ -768,7 +768,7 @@ void Admin::displayuser()
 			v.push_back(d);
 		}
 		for (int i = 0; i < v.size(); i++) {
-			cout << "Name : " << v[i].getname() << endl << "password : " << v[i].getpass() << "  "  << "age : " << v[i].getage() << "  "  << "email : " << v[i].getmail() << "  "  << "id : " << v[i].getid() << "  "  << "gender : " << v[i].getgender() << "  ";
+			cout << "Name : " << v[i].getname() << " " << "password : " << v[i].getpass() << "  "  << "age : " << v[i].getage() << "  "  << "email : " << v[i].getmail() << "  "  << "id : " << v[i].getid() << "  "  << "gender : " << v[i].getgender() << "  ";
 			cout << "blood type : " << v[i].getbloodtype() << "  "  << "hospital : " << v[i].gethospital() << "  "  << "doctor : " << v[i].getdoc() << endl;
 		}
 	}
